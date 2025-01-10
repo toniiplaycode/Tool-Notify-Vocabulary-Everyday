@@ -1,19 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager  # Import webdriver-manager
 import time
 import pickle
 
-# Đường dẫn tới Chrome WebDriver (chromedriver.exe)
-chrome_driver_path = "./chromedriver-win64/chromedriver.exe"  # Thay bằng đường dẫn của bạn
-
-# Khởi chạy Chrome WebDriver
-service = Service(chrome_driver_path)
-driver = webdriver.Chrome(service=service)
+# Khởi chạy Chrome WebDriver sử dụng webdriver-manager để tự động tải và quản lý chromedriver
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))  # Không cần chỉ định đường dẫn tĩnh nữa
 
 # Truy cập Google Dịch trước khi thêm cookie
 driver.get("https://translate.google.com/")
-time.sleep(3)  # Đợi trang tải
+time.sleep(2)  # Đợi trang tải
 
 # Load cookies đã lưu vào Selenium
 cookies = pickle.load(open("cookies.pkl", "rb"))  # Đọc cookies từ file
@@ -26,7 +23,7 @@ for cookie in cookies:
 
 # Làm mới trang để áp dụng cookies
 driver.refresh()
-time.sleep(3)  # Đợi trang tải lại
+time.sleep(2)  # Đợi trang tải lại
 
 # Kiểm tra xem đã đăng nhập thành công chưa (kiểm tra một phần tử đặc trưng chỉ xuất hiện khi đã đăng nhập)
 try:
@@ -57,7 +54,7 @@ while len(saved_words) < 30:  # Lặp lại cho đến khi có ít nhất 30 t�
     if len(saved_words) < 30:
         next_button = driver.find_element(By.XPATH, '//button[@aria-label="10 bản dịch đã lưu tiếp theo"]')  # XPath nút chuyển trang
         next_button.click()
-        time.sleep(3)  # Đợi trang mới tải
+        time.sleep(1)  # Đợi trang mới tải
 
     page_count += 1
     if page_count > 3:  # Nếu lặp quá nhiều lần mà không có đủ từ vựng, dừng lại

@@ -1,24 +1,124 @@
 import time
-from win10toast import ToastNotifier
+from winotify import Notification
 from playsound import playsound
+import os
+from gtts import gTTS
+import tempfile
+from sys import exit
+import sys
+import pystray
+from PIL import Image
+import threading
+import random
 
-# Đường dẫn tới file âm thanh
-custom_sound = "./ting.wav"
+# Sửa cách lấy đường dẫn để tương thích với PyInstaller
+def resource_path(relative_path):
+    """Lấy đường dẫn tuyệt đối cho resource files"""
+    try:
+        # PyInstaller tạo một thư mục temp _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.dirname(__file__)
+    
+    return os.path.join(base_path, relative_path)
 
-# Đọc danh sách từ vựng từ file
-with open("saved_words.txt", "r", encoding="utf-8") as f:
-    saved_words = [line.strip() for line in f.readlines()]
+# Sử dụng resource_path để lấy đường dẫn file âm thanh
+custom_sound = resource_path("ting.wav")
 
-# Khởi tạo ToastNotifier
-toaster = ToastNotifier()
+# Kiểm tra file âm thanh có tồn tại không
+if not os.path.exists(custom_sound):
+    print(f"Lỗi: Không tìm thấy file âm thanh tại {custom_sound}")
+    exit()
 
-# Hiển thị từ vựng với âm thanh tùy chỉnh
-for word in saved_words:
-    toaster.show_toast(
-        "Học từ vựng",
-        word,
-        duration=10,
-        threaded=True,
+def text_to_speech(text, lang='en'):
+    """Chuyển đổi văn bản thành giọng nói và phát"""
+    try:
+        # Tạo file tạm để lưu âm thanh
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as fp:
+            temp_filename = fp.name
+            
+        # Tạo file âm thanh
+        tts = gTTS(text=text, lang=lang)
+        tts.save(temp_filename)
+        
+        # Phát âm thanh
+        playsound(temp_filename)
+        
+        # Xóa file tạm sau khi phát
+        os.unlink(temp_filename)
+    except Exception as e:
+        print(f"Lỗi khi đọc từ '{text}': {str(e)}")
+
+def show_notification(title, message):
+    toast = Notification(
+        app_id="Vocabulary Everyday",
+        title=title,
+        msg=message,
+        duration="long",
+        icon=resource_path("icon.ico")
     )
-    playsound(custom_sound)
-    time.sleep(10)
+    toast.show()
+
+def create_tray_icon():
+    # Sử dụng icon.ico từ resources
+    image = Image.open(resource_path("icon.ico"))
+    
+    def on_quit(icon):
+        icon.stop()
+        os._exit(0)
+    
+    # Tạo menu cho icon
+    menu = pystray.Menu(
+        pystray.MenuItem("Quit", on_quit)
+    )
+    
+    # Tạo icon
+    icon = pystray.Icon(
+        "Vocabulary",
+        image,
+        "Vocabulary Notifier",
+        menu
+    )
+    
+    icon.run()
+
+# Chạy tray icon trong thread riêng
+threading.Thread(target=create_tray_icon, daemon=True).start()
+
+try:
+    # Đọc danh sách từ vựng từ file
+    with open(resource_path("saved_words.txt"), "r", encoding="utf-8") as f:
+        all_words = [line.strip() for line in f.readlines()]
+
+    if not all_words:
+        print("Lỗi: File saved_words.txt trống")
+        exit()
+
+    # Vòng lặp vô hạn để xoay vòng các từ
+    while True:
+        # Tạo một bản sao của danh sách từ để random
+        current_words = all_words.copy()
+        
+        # Tiếp tục cho đến khi hết từ trong chu kỳ hiện tại
+        while current_words:
+            # Chọn ngẫu nhiên một từ từ danh sách hiện tại
+            line = random.choice(current_words)
+            # Xóa từ đã chọn khỏi danh sách hiện tại
+            current_words.remove(line)
+            
+            try:
+                english_word = line.split('-')[0].strip()
+                meaning = line.split('-')[1].strip() if '-' in line else ''
+                
+                show_notification(english_word, meaning)
+                text_to_speech(english_word)
+                playsound(custom_sound)
+                time.sleep(180)
+            except Exception as e:
+                print(f"Lỗi khi hiển thị từ '{line}': {str(e)}")
+                continue
+
+except FileNotFoundError:
+    print("Lỗi: Không tìm thấy file saved_words.txt")
+except Exception as e:
+    print(f"Lỗi không xác định: {str(e)}")

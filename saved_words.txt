@@ -1,3 +1,4 @@
+valuable - có giá trị lớn
 associated - có liên quan
 stuck - mắc kẹt
 confuse - bối rối
@@ -6,7 +7,6 @@ tackle - giải quyết
 separate - chia ra
 rugby - bóng bầu dục
 peak - đỉnh cao
-valuable - có giá trị lớn
 trophy - cúp
 respective - tương ứng
 particular - cụ thể

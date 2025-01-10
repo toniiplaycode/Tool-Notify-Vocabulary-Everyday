@@ -1,0 +1,1770 @@
+(['C:\\Users\\Thanh Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\main.py'],
+ ['C:\\Users\\Thanh Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday'],
+ [],
+ [('C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
+   -1000),
+  ('C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib',
+   -1000)],
+ {},
+ [],
+ [],
+ False,
+ {},
+ 0,
+ [],
+ [('icon.ico',
+   'C:\\Users\\Thanh Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\icon.ico',
+   'DATA'),
+  ('saved_words.txt',
+   'C:\\Users\\Thanh '
+   'Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\saved_words.txt',
+   'DATA'),
+  ('ting.wav',
+   'C:\\Users\\Thanh Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\ting.wav',
+   'DATA')],
+ '3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Thanh Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\main.py',
+   'PYSOURCE')],
+ [('subprocess',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\string.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\base64.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\struct.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\socket.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('pathlib._local',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_local.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\glob.py',
+   'PYMODULE'),
+  ('pathlib._abc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_abc.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\typing.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\token.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('_opcode_metadata',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_opcode_metadata.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ast.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipimport.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('pystray',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\__init__.py',
+   'PYMODULE'),
+  ('pystray._util.win32',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\win32.py',
+   'PYMODULE'),
+  ('pystray._util.notify_dbus',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\notify_dbus.py',
+   'PYMODULE'),
+  ('pystray._util.gtk',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\gtk.py',
+   'PYMODULE'),
+  ('pystray._util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\__init__.py',
+   'PYMODULE'),
+  ('pystray._info',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_info.py',
+   'PYMODULE'),
+  ('pystray._base',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_base.py',
+   'PYMODULE'),
+  ('six',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pystray._xorg',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_xorg.py',
+   'PYMODULE'),
+  ('pystray._win32',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_win32.py',
+   'PYMODULE'),
+  ('pystray._gtk',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_gtk.py',
+   'PYMODULE'),
+  ('pystray._darwin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_darwin.py',
+   'PYMODULE'),
+  ('pystray._appindicator',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_appindicator.py',
+   'PYMODULE'),
+  ('pystray._dummy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_dummy.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('gtts',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\__init__.py',
+   'PYMODULE'),
+  ('gtts.tts',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\tts.py',
+   'PYMODULE'),
+  ('gtts.utils',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\utils.py',
+   'PYMODULE'),
+  ('gtts.tokenizer.symbols',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\tokenizer\\symbols.py',
+   'PYMODULE'),
+  ('gtts.tokenizer.tokenizer_cases',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\tokenizer\\tokenizer_cases.py',
+   'PYMODULE'),
+  ('gtts.tokenizer.pre_processors',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\tokenizer\\pre_processors.py',
+   'PYMODULE'),
+  ('gtts.tokenizer',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\tokenizer\\__init__.py',
+   'PYMODULE'),
+  ('gtts.tokenizer.core',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\tokenizer\\core.py',
+   'PYMODULE'),
+  ('gtts.lang',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\lang.py',
+   'PYMODULE'),
+  ('gtts.langs',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\langs.py',
+   'PYMODULE'),
+  ('requests',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.http2.probe',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\http2\\probe.py',
+   'PYMODULE'),
+  ('urllib3.http2',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.http2.connection',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\http2\\connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('socks',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
+   'PYMODULE'),
+  ('gtts.version',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\gtts\\version.py',
+   'PYMODULE'),
+  ('playsound',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\playsound.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\platform.py',
+   'PYMODULE'),
+  ('_ios_support',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_ios_support.py',
+   'PYMODULE'),
+  ('winotify',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winotify\\__init__.py',
+   'PYMODULE'),
+  ('winotify._communication',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winotify\\_communication.py',
+   'PYMODULE'),
+  ('winotify._registry',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winotify\\_registry.py',
+   'PYMODULE'),
+  ('winotify.audio',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winotify\\audio.py',
+   'PYMODULE')],
+ [('python313.dll',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp313-win_amd64.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_webp.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp313-win_amd64.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imaging.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp313-win_amd64.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp313-win_amd64.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Microsoft\\jdk-11.0.20.8-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY')],
+ [],
+ [],
+ [('icon.ico',
+   'C:\\Users\\Thanh Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\icon.ico',
+   'DATA'),
+  ('saved_words.txt',
+   'C:\\Users\\Thanh '
+   'Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\saved_words.txt',
+   'DATA'),
+  ('ting.wav',
+   'C:\\Users\\Thanh Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\ting.wav',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Thanh '
+   'Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\build\\main\\base_library.zip',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA')])
