@@ -61,5 +61,3 @@ Tool thông báo từ vựng tự động, giúp bạn học từ vựng tiếng
 - Không lưu trữ cookies khi không cần thiết
 - Chỉ sử dụng tool trên máy tính cá nhân
 - Cập nhật mật khẩu định kỳ để bảo mật
-
-## Cấu trúc thư mục
