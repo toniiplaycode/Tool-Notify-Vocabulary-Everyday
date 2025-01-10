@@ -1,5 +1,5 @@
 # -*- mode: python ; coding: utf-8 -*-
-
+import os
 
 a = Analysis(
     ['getVocabulary.py'],
@@ -30,6 +30,7 @@ exe = EXE(
     upx_exclude=[],
     runtime_tmpdir=None,
     console=False,
+    icon=os.path.abspath('icon.ico'),
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,

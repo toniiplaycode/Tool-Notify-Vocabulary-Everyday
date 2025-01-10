@@ -1,0 +1,5 @@
+# Cookies và cache
+cookies.pkl
+*.pkl
+__pycache__/
+*.pyc

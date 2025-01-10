@@ -412,6 +412,10 @@
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\colorsys.py',
    'PYMODULE'),
+  ('commctrl',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
   ('contextlib',
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py',
@@ -1004,6 +1008,51 @@
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_xorg.py',
    'PYMODULE'),
+  ('pythoncom',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('pywin',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin32_system32', '-', 'PYMODULE'),
+  ('pywintypes',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
   ('queue',
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\queue.py',
@@ -1339,6 +1388,86 @@
   ('urllib3.util.wait',
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('win32com',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('winerror',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\winerror.py',
    'PYMODULE'),
   ('winotify',
    'C:\\Users\\Thanh '
