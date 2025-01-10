@@ -1,5 +1,7 @@
 # Vocabulary Everyday Notification Tool
 
+![image](https://github.com/user-attachments/assets/5a48fbcc-6f8c-401b-baf3-d6391da735c6)
+
 ## Giới thiệu
 
 Tool thông báo từ vựng tự động, giúp bạn học từ vựng tiếng Anh mỗi ngày một cách hiệu quả. Tool có khả năng tự động lấy các từ vựng đã lưu từ Google Translate thông qua cookies của tài khoản Google.
