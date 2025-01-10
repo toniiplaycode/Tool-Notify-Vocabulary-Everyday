@@ -1,5 +1,4 @@
-('C:\\Users\\Thanh '
- 'Toan\\Desktop\\Tool-Notify-Vocabulary-Everyday\\build\\main\\PYZ-00.pyz',
+('B:\\Project\\Tool-Notify-Vocabulary-Everyday\\build\\main\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py',

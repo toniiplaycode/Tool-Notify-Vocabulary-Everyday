@@ -83,11 +83,19 @@ def create_tray_icon():
     
     def open_settings(icon):
         os.system('settings.exe')
+        
+    def open_format_cookies(icon):
+        os.system('formatCookies.exe')
+        
+    def open_get_vocabulary(icon):
+        os.system('getVocabulary.exe')
     
-    # Tạo menu cho icon với thêm tùy chọn Settings
+    # Tạo menu cho icon với thêm các tùy chọn mới
     menu = pystray.Menu(
+        pystray.MenuItem("Get Vocabulary", open_get_vocabulary),
+        pystray.MenuItem("Format Cookies", open_format_cookies),
         pystray.MenuItem("Settings", open_settings),
-        pystray.MenuItem("Quit", on_quit)
+        pystray.MenuItem("Quit", on_quit),
     )
     
     icon = pystray.Icon(

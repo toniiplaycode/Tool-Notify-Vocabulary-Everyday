@@ -59,7 +59,7 @@ class SettingsWindow:
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
         # Interval setting
-        ttk.Label(main_frame, text="Interval between words (seconds):").grid(row=0, column=0, pady=10)
+        ttk.Label(main_frame, text="Thời gian chuyển từ (giây):").grid(row=0, column=0, pady=10)
         self.interval_var = tk.StringVar(value=str(self.settings["interval"]))
         interval_entry = ttk.Entry(main_frame, textvariable=self.interval_var, width=10)
         interval_entry.grid(row=0, column=1, padx=10)
