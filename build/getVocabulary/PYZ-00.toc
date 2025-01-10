@@ -2043,6 +2043,26 @@
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py',
    'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'C:\\Users\\Thanh '
+   'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\ttk.py',
+   'PYMODULE'),
   ('token',
    'C:\\Users\\Thanh '
    'Toan\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\token.py',

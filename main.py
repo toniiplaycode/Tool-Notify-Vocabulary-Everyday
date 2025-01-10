@@ -64,10 +64,15 @@ def show_notification(title, message):
 
 def load_settings():
     try:
-        with open(resource_path('settings.json'), 'r') as f:
-            return json.load(f)
-    except:
-        return {"interval": 180}  # Mặc định 180 giây
+        # Thử đọc từ thư mục hiện tại trước
+        if os.path.exists('settings.json'):
+            with open('settings.json', 'r', encoding='utf-8') as f:
+                settings = json.load(f)
+                if 'interval' in settings:
+                    return settings
+    except Exception as e:
+        print(f"Error loading settings: {str(e)}")
+    return {"interval": 180}  # Default value
 
 def create_tray_icon():
     image = Image.open(resource_path("icon.ico"))
@@ -126,7 +131,7 @@ try:
         all_words = [line.strip() for line in f.readlines()]
 
     if not all_words:
-        print("Lỗi: File saved_words.txt trống")
+        print("Error: saved_words.txt is empty")
         exit()
 
     # Vòng lặp vô hạn để xoay vòng các từ
@@ -136,9 +141,12 @@ try:
         
         # Tiếp tục cho đến khi hết từ trong chu kỳ hiện tại
         while current_words:
+            # Đọc lại settings mỗi lần hiển thị từ mới
+            settings = load_settings()
+            interval = settings.get('interval', 180)
+            
             # Chọn ngẫu nhiên một từ từ danh sách hiện tại
             line = random.choice(current_words)
-            # Xóa từ đã chọn khỏi danh sách hiện tại
             current_words.remove(line)
             
             try:
@@ -148,13 +156,12 @@ try:
                 show_notification(english_word, meaning)
                 text_to_speech(english_word)
                 playsound(custom_sound)
-                settings = load_settings()
-                time.sleep(settings["interval"])
+                time.sleep(interval)  # Sử dụng interval từ settings
             except Exception as e:
-                print(f"Lỗi khi hiển thị từ '{line}': {str(e)}")
+                print(f"Error displaying word '{line}': {str(e)}")
                 continue
 
 except FileNotFoundError:
-    print("Lỗi: Không tìm thấy file saved_words.txt")
+    print("Error: saved_words.txt not found")
 except Exception as e:
-    print(f"Lỗi không xác định: {str(e)}")
+    print(f"Unknown error: {str(e)}")

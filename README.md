@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-Tool thông báo từ vựng tự động, giúp bạn học từ vựng tiếng Anh mỗi ngày một cách hiệu quả.
+Tool thông báo từ vựng tự động, giúp bạn học từ vựng tiếng Anh mỗi ngày một cách hiệu quả. Tool có khả năng tự động lấy các từ vựng đã lưu từ Google Translate thông qua cookies của tài khoản Google.
 
 ## Cài đặt
 
@@ -16,28 +16,39 @@ Tool thông báo từ vựng tự động, giúp bạn học từ vựng tiếng
 - Phát âm từ vựng tiếng Anh
 - Tùy chỉnh thời gian giữa các thông báo
 - Tự động khởi động cùng Windows
+- **Đồng bộ từ vựng với Google Translate:**
+  - Tự động lấy từ vựng đã lưu từ tài khoản Google
+  - Hỗ trợ đồng bộ từ vựng đa nền tảng
+  - Dễ dàng quản lý và cập nhật danh sách từ vựng
 
 ## Cách sử dụng an toàn
 
-1. **Xóa cookies sau khi lấy từ vựng:**
+1. **Lấy từ vựng từ Google Translate:**
+
+   - Đăng nhập vào tài khoản Google trên Chrome
+   - Lưu các từ vựng muốn học trên Google Translate
+   - Chạy `getVocabulary.exe` để lấy danh sách từ vựng
+   - Tool sẽ tự động tạo file `saved_words.txt`
+
+2. **Xóa cookies sau khi lấy từ vựng:**
 
    - Sau khi chạy `getVocabulary.exe` để lấy từ vựng
    - Xóa file `cookies.pkl` để bảo vệ thông tin đăng nhập
    - Tool vẫn hoạt động bình thường với file `saved_words.txt`
 
-2. **Bảo mật thông tin:**
+3. **Bảo mật thông tin:**
 
    - Không chia sẻ file `cookies.pkl`
    - Không chia sẻ thông tin đăng nhập
    - Chỉ chia sẻ file `saved_words.txt` nếu cần
 
-3. **Cài đặt thời gian:**
+4. **Cài đặt thời gian:**
 
    - Click chuột phải vào icon trên taskbar
    - Chọn "Settings" để mở cửa sổ cài đặt
    - Điều chỉnh thời gian giữa các thông báo (giây)
 
-4. **Tắt chương trình:**
+5. **Tắt chương trình:**
    - Click chuột phải vào icon trên taskbar
    - Chọn "Quit" để tắt chương trình
    - Để tắt tự động khởi động: xóa shortcut từ thư mục Startup

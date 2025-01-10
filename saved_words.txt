@@ -1,3 +1,4 @@
+peak - đỉnh cao
 valuable - có giá trị lớn
 associated - có liên quan
 stuck - mắc kẹt
@@ -6,9 +7,6 @@ avoid - tránh xa
 tackle - giải quyết
 separate - chia ra
 rugby - bóng bầu dục
-peak - đỉnh cao
-trophy - cúp
-respective - tương ứng
 particular - cụ thể
 pressure - áp lực
 compulsory - bắt buộc
@@ -28,3 +26,5 @@ sweat - mồ hôi
 surround - bao quanh
 essentially - Thiết yếu
 equivalent - tương đương
+nourish - nuôi
+composition - thành phần
