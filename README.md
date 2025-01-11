@@ -1,9 +1,9 @@
 # Vocabulary Everyday Notification Tool
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/508db7e7-9427-4e77-9907-e3595fb3125f" width="280" height="190">
-<img src="https://github.com/user-attachments/assets/54a23ad4-f7d7-475c-b514-30cce7dbe91f" width="280" height="190">
-<img src="https://github.com/user-attachments/assets/d4ab479a-59cc-42d5-9d49-65ced5139f29" width="280" height="190">
+<img src="https://github.com/user-attachments/assets/508db7e7-9427-4e77-9907-e3595fb3125f" width="310" height="190">
+<img src="https://github.com/user-attachments/assets/54a23ad4-f7d7-475c-b514-30cce7dbe91f" width="310" height="190">
+<img src="https://github.com/user-attachments/assets/d4ab479a-59cc-42d5-9d49-65ced5139f29" width="310" height="190">
 </p>
 
 ![image](https://github.com/user-attachments/assets/4c25ad87-5bb1-42f8-b4b3-0e3fe64203f9)
