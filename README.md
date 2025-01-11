@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8f42b925-a840-4f3c-ad99-5649915a3d99)# Vocabulary Everyday Notification Tool
+# Vocabulary Everyday Notification Tool
 
 ![image](https://github.com/user-attachments/assets/5a48fbcc-6f8c-401b-baf3-d6391da735c6)
 ![image](https://github.com/user-attachments/assets/a2c5c39d-6db6-432f-bbfa-09a2924e1ca2)
