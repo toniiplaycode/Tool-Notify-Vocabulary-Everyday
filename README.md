@@ -1,12 +1,10 @@
 # Vocabulary Everyday Notification Tool
 
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/5a48fbcc-6f8c-401b-baf3-d6391da735c6" width="280" height="190" style="object-fit: cover;">
-    <img src="https://github.com/user-attachments/assets/a2c5c39d-6db6-432f-bbfa-09a2924e1ca2" width="280" height="190" style="object-fit: cover;">
-    <img src="https://github.com/user-attachments/assets/b3678951-f464-4dd9-bbb5-18d71b214868" width="280" height="190" style="object-fit: cover;">
-    <img src="https://github.com/user-attachments/assets/85753ac7-835c-4a85-8c67-8b91c13bafba" width="280" height="190" style="object-fit: cover;">
-    <img src="https://github.com/user-attachments/assets/59b931ee-c666-453a-8be3-db049ec7005c" width="280" height="190" style="object-fit: cover;">
-</div>
+![image](https://github.com/user-attachments/assets/508db7e7-9427-4e77-9907-e3595fb3125f)
+![image](https://github.com/user-attachments/assets/54a23ad4-f7d7-475c-b514-30cce7dbe91f)
+![image](https://github.com/user-attachments/assets/4c25ad87-5bb1-42f8-b4b3-0e3fe64203f9)
+![image](https://github.com/user-attachments/assets/d4ab479a-59cc-42d5-9d49-65ced5139f29)
+
 
 ## Giới thiệu
 
