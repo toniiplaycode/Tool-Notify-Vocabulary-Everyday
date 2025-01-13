@@ -6,7 +6,11 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('icon.ico', '.'), ('ting.wav', '.'), ('saved_words.txt', '.')],
+    datas=[
+        ('icon.ico', '.'), 
+        ('ting.wav', '.'), 
+        ('saved_words.txt', '.')
+    ],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

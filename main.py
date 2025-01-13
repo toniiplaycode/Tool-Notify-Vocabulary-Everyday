@@ -52,11 +52,12 @@ def text_to_speech(text, lang='en'):
     except Exception as e:
         print(f"Lỗi khi đọc từ '{text}': {str(e)}")
 
-def show_notification(title, message):
+def show_notification(title, message, current_num, total):
+    """Hiển thị thông báo với số thứ tự từ và tổng số từ"""
     toast = Notification(
         app_id="Vocabulary Everyday",
         title=title,
-        msg=message,
+        msg=f"{message}\n{current_num}/{total}",  # Thêm số thứ tự/tổng số từ
         duration="long",
         icon=resource_path("icon.ico")
     )
@@ -133,41 +134,86 @@ def add_to_startup():
 # Thêm vào startup khi khởi động
 add_to_startup()
 
+def save_current_index(index, total_words):
+    """Lưu vị trí từ vựng hiện tại và tổng số từ"""
+    try:
+        data = {
+            'current_index': index,
+            'total_words': total_words,
+            'last_updated': time.time()
+        }
+        with open('vocabulary_state.json', 'w', encoding='utf-8') as f:
+            json.dump(data, f)
+    except Exception as e:
+        print(f"Error saving state: {str(e)}")
+
+def load_current_index(total_words):
+    """Đọc vị trí từ vựng đã lưu"""
+    try:
+        if os.path.exists('vocabulary_state.json'):
+            with open('vocabulary_state.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # Chỉ reset về 0 khi số từ vựng thay đổi
+                if data['total_words'] != total_words:
+                    print(f"Total words changed from {data['total_words']} to {total_words}, resetting index")
+                    return 0
+                # Nếu index vượt quá số từ hiện tại, reset về 0
+                if data['current_index'] >= total_words:
+                    return 0
+                return data['current_index']
+    except Exception as e:
+        print(f"Error loading state: {str(e)}")
+    return 0
+
 try:
     # Đọc danh sách từ vựng từ file
     with open(resource_path("saved_words.txt"), "r", encoding="utf-8") as f:
         all_words = [line.strip() for line in f.readlines()]
+        total_words = len(all_words)
+        print(f"Loaded {total_words} words from saved_words.txt")
 
     if not all_words:
         print("Error: saved_words.txt is empty")
         exit()
 
+    # Đọc vị trí từ vựng đã lưu
+    current_word_index = load_current_index(total_words)
+    print(f"Starting from word index: {current_word_index}")
+    
     # Vòng lặp vô hạn để xoay vòng các từ
     while True:
-        # Tạo một bản sao của danh sách từ để random
-        current_words = all_words.copy()
+        settings = load_settings()
+        interval = settings.get('interval', 180)
         
-        # Tiếp tục cho đến khi hết từ trong chu kỳ hiện tại
-        while current_words:
-            # Đọc lại settings mỗi lần hiển thị từ mới
-            settings = load_settings()
-            interval = settings.get('interval', 180)
+        # Kiểm tra và đảm bảo index hợp lệ
+        if current_word_index >= total_words:
+            current_word_index = 0
+            print("Reached end of word list, starting over")
             
-            # Chọn ngẫu nhiên một từ từ danh sách hiện tại
-            line = random.choice(current_words)
-            current_words.remove(line)
+        # Lấy từ hiện tại và hiển thị ngay lập tức
+        line = all_words[current_word_index]
+        try:
+            english_word = line.split('-')[0].strip()
+            meaning = line.split('-')[1].strip() if '-' in line else ''
             
-            try:
-                english_word = line.split('-')[0].strip()
-                meaning = line.split('-')[1].strip() if '-' in line else ''
-                
-                show_notification(english_word, meaning)
-                text_to_speech(english_word)
-                playsound(custom_sound)
-                time.sleep(interval)  # Sử dụng interval từ settings
-            except Exception as e:
-                print(f"Error displaying word '{line}': {str(e)}")
-                continue
+            print(f"Showing word {current_word_index + 1}/{total_words}: {english_word}")
+            
+            show_notification(english_word, meaning, current_word_index + 1, total_words)
+            text_to_speech(english_word)
+            playsound(custom_sound)
+            
+            # Đợi interval trước khi hiển thị từ tiếp theo
+            time.sleep(interval)
+            
+            # Tăng chỉ số từ sau khi đã đợi
+            current_word_index = (current_word_index + 1)
+            save_current_index(current_word_index, total_words)
+            
+        except Exception as e:
+            print(f"Error displaying word '{line}': {str(e)}")
+            current_word_index = (current_word_index + 1)
+            save_current_index(current_word_index, total_words)
+            continue
 
 except FileNotFoundError:
     print("Error: saved_words.txt not found")

@@ -3,3 +3,4 @@ cookies.pkl
 *.pkl
 __pycache__/
 *.pyc
+vocabulary_state.json

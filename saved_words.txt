@@ -28,3 +28,73 @@ essentially - Thiết yếu
 equivalent - tương đương
 nourish - nuôi
 composition - thành phần
+even wetter - thậm chí còn ướt hơn
+factor - nhân tố
+depending - tùy thuộc
+breakthrough - đột phá
+sausage - xúc xích
+trail - đường mòn
+road - đường
+combine - kết hợp
+raise - nâng lên
+crucial - chủ yếu
+fluently - trôi chảy
+pride - kiêu hãnh
+ambition - tham vọng
+candidate - ứng viên
+deprecated - đã lỗi thời
+decoration - trang trí
+various - nhiều
+assuming - giả định
+radioactive - phóng xạ
+epidemic - bệnh dịch
+aspects - các khía cạnh
+properly - đúng cách
+consumes - tiêu thụ
+addicted - nghiện
+discussed - đã thảo luận
+exhausted - kiệt sức
+aspect - diện mạo
+proves - chứng minh
+perhaps - có lẽ
+app bar - thanh ứng dụng
+coordinator - người điều phối
+intent - ý định
+enum - liệt kê
+implementation - thực hiện
+due to - bởi vì
+ensure - đảm bảo
+instances - trường hợp
+concise - ngắn gọn
+implement - thực hiện
+companion - bạn đồng hành
+omit - bỏ sót
+frequently - thường xuyên
+perimeter - chu vi
+inference - sự suy luận
+entire - toàn bộ
+honk - bấm còi
+specific - cụ thể
+specify - chỉ rõ
+familiarize - làm quen
+vending - bán hàng tự động
+willing - sẵn sàng
+honest - trung thực
+ill - ốm
+servant - người hầu
+nervous - lo lắng
+governess - gia sư
+accused - bị buộc tội
+innocent - vô tội
+conclusion - Phần kết luận
+doubt - nghi ngờ
+remind - nhắc lại
+mention - đề cập đến
+justice - Sự công bằng
+pill - Viên thuốc
+swan - Thiên nga
+compress - nén
+wonder - thắc mắc
+record player - máy ghi âm
+unconscious - bất tỉnh
+directly - trực tiếp
