@@ -9,10 +9,13 @@ import sys
 import pystray
 from PIL import Image
 import threading
-import random
 import json
 import winreg
 import win32com.client
+import win32event
+import win32api
+import winerror
+from pathlib import Path
 
 # Sửa cách lấy đường dẫn để tương thích với PyInstaller
 def resource_path(relative_path):
@@ -36,18 +39,11 @@ if not os.path.exists(custom_sound):
 def text_to_speech(text, lang='en'):
     """Chuyển đổi văn bản thành giọng nói và phát"""
     try:
-        # Tạo file tạm để lưu âm thanh
         with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as fp:
             temp_filename = fp.name
-            
-        # Tạo file âm thanh
         tts = gTTS(text=text, lang=lang)
         tts.save(temp_filename)
-        
-        # Phát âm thanh
         playsound(temp_filename)
-        
-        # Xóa file tạm sau khi phát
         os.unlink(temp_filename)
     except Exception as e:
         print(f"Lỗi khi đọc từ '{text}': {str(e)}")
@@ -57,7 +53,7 @@ def show_notification(title, message, current_num, total):
     toast = Notification(
         app_id="Vocabulary Everyday",
         title=title,
-        msg=f"{message}\n{current_num}/{total}",  # Thêm số thứ tự/tổng số từ
+        msg=f"{message}\n{current_num}/{total}",
         duration="long",
         icon=resource_path("icon.ico")
     )
@@ -65,7 +61,6 @@ def show_notification(title, message, current_num, total):
 
 def load_settings():
     try:
-        # Thử đọc từ thư mục hiện tại trước
         if os.path.exists('settings.json'):
             with open('settings.json', 'r', encoding='utf-8') as f:
                 settings = json.load(f)
@@ -73,7 +68,7 @@ def load_settings():
                     return settings
     except Exception as e:
         print(f"Error loading settings: {str(e)}")
-    return {"interval": 180}  # Default value
+    return {"interval": 180}
 
 def create_tray_icon():
     image = Image.open(resource_path("icon.ico"))
@@ -91,7 +86,6 @@ def create_tray_icon():
     def open_get_vocabulary(icon):
         os.system('getVocabulary.exe')
     
-    # Tạo menu cho icon với thêm các tùy chọn mới
     menu = pystray.Menu(
         pystray.MenuItem("Get Vocabulary", open_get_vocabulary),
         pystray.MenuItem("Format Cookies", open_format_cookies),
@@ -105,22 +99,14 @@ def create_tray_icon():
         "Vocabulary Notifier",
         menu
     )
-    
-    icon.run()
-
-# Chạy tray icon trong thread riêng
-threading.Thread(target=create_tray_icon, daemon=True).start()
+    return icon
 
 def add_to_startup():
     try:
-        # Lấy đường dẫn đến file thực thi
         exe_path = os.path.abspath(sys.argv[0])
-        
-        # Tạo shortcut trong thư mục Startup
         startup_folder = os.path.join(os.getenv('APPDATA'), 'Microsoft', 'Windows', 'Start Menu', 'Programs', 'Startup')
         shortcut_path = os.path.join(startup_folder, 'VocabularyEveryday.lnk')
         
-        # Tạo shortcut nếu chưa tồn tại
         if not os.path.exists(shortcut_path):
             shell = win32com.client.Dispatch("WScript.Shell")
             shortcut = shell.CreateShortCut(shortcut_path)
@@ -130,9 +116,6 @@ def add_to_startup():
             shortcut.save()
     except Exception as e:
         print(f"Lỗi khi thêm vào startup: {str(e)}")
-
-# Thêm vào startup khi khởi động
-add_to_startup()
 
 def save_current_index(index, total_words):
     """Lưu vị trí từ vựng hiện tại và tổng số từ"""
@@ -153,11 +136,9 @@ def load_current_index(total_words):
         if os.path.exists('vocabulary_state.json'):
             with open('vocabulary_state.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                # Chỉ reset về 0 khi số từ vựng thay đổi
                 if data['total_words'] != total_words:
                     print(f"Total words changed from {data['total_words']} to {total_words}, resetting index")
                     return 0
-                # Nếu index vượt quá số từ hiện tại, reset về 0
                 if data['current_index'] >= total_words:
                     return 0
                 return data['current_index']
@@ -165,57 +146,125 @@ def load_current_index(total_words):
         print(f"Error loading state: {str(e)}")
     return 0
 
-try:
-    # Đọc danh sách từ vựng từ file
-    with open(resource_path("saved_words.txt"), "r", encoding="utf-8") as f:
-        all_words = [line.strip() for line in f.readlines()]
-        total_words = len(all_words)
-        print(f"Loaded {total_words} words from saved_words.txt")
+def check_single_instance():
+    """Đảm bảo chỉ có một instance của chương trình chạy"""
+    try:
+        mutex_name = "Global\\VocabularyEverydayNotifierMutex_v1"
+        global mutex
+        mutex = win32event.CreateMutex(None, 1, mutex_name)
+        last_error = win32api.GetLastError()
+        
+        print(f"Checking single instance - Last Error: {last_error}")
+        
+        if last_error == winerror.ERROR_ALREADY_EXISTS:
+            print("Another instance is already running! Exiting...")
+            win32api.CloseHandle(mutex)
+            return False
+            
+        print("No other instance found, continuing...")
+        return True
+        
+    except Exception as e:
+        print(f"Error in check_single_instance: {str(e)}")
+        return False
 
-    if not all_words:
-        print("Error: saved_words.txt is empty")
-        exit()
+def main():
+    try:
+        if not check_single_instance():
+            print("Exiting due to another instance running")
+            sys.exit(0)
+            
+        print("Starting main program...")
+        
+        # Thêm vào startup khi khởi động
+        add_to_startup()
+        
+        # Tạo và chạy icon trong thread riêng trước khi đọc từ vựng
+        icon = create_tray_icon()
+        icon_thread = threading.Thread(target=icon.run, daemon=True)
+        icon_thread.start()
+        
+        # Đợi icon được khởi tạo
+        time.sleep(3)
+        
+        with open(resource_path("saved_words.txt"), "r", encoding="utf-8") as f:
+            all_words = [line.strip() for line in f.readlines()]
+            total_words = len(all_words)
+            print(f"Loaded {total_words} words from saved_words.txt")
 
-    # Đọc vị trí từ vựng đã lưu
-    current_word_index = load_current_index(total_words)
-    print(f"Starting from word index: {current_word_index}")
-    
-    # Vòng lặp vô hạn để xoay vòng các từ
-    while True:
+        if not all_words:
+            print("Error: saved_words.txt is empty")
+            exit()
+
+        current_word_index = load_current_index(total_words)
+        print(f"Starting from word index: {current_word_index}")
+        
         settings = load_settings()
         interval = settings.get('interval', 180)
+        print(f"Initial interval: {interval} seconds")
         
-        # Kiểm tra và đảm bảo index hợp lệ
-        if current_word_index >= total_words:
-            current_word_index = 0
-            print("Reached end of word list, starting over")
-            
-        # Lấy từ hiện tại và hiển thị ngay lập tức
-        line = all_words[current_word_index]
-        try:
-            english_word = line.split('-')[0].strip()
-            meaning = line.split('-')[1].strip() if '-' in line else ''
-            
-            print(f"Showing word {current_word_index + 1}/{total_words}: {english_word}")
-            
-            show_notification(english_word, meaning, current_word_index + 1, total_words)
-            text_to_speech(english_word)
-            playsound(custom_sound)
-            
-            # Đợi interval trước khi hiển thị từ tiếp theo
-            time.sleep(interval)
-            
-            # Tăng chỉ số từ sau khi đã đợi
-            current_word_index = (current_word_index + 1)
-            save_current_index(current_word_index, total_words)
-            
-        except Exception as e:
-            print(f"Error displaying word '{line}': {str(e)}")
-            current_word_index = (current_word_index + 1)
-            save_current_index(current_word_index, total_words)
-            continue
+        # Tạo event để kiểm soát vòng lặp
+        running = threading.Event()
+        running.set()  # Set event để bắt đầu vòng lặp
+        
+        def on_quit(icon):
+            running.clear()  # Clear event để dừng vòng lặp
+            icon.stop()
+            os._exit(0)
+        
+        # Cập nhật menu với hàm on_quit mới
+        menu = pystray.Menu(
+            pystray.MenuItem("Get Vocabulary", lambda: os.system('getVocabulary.exe')),
+            pystray.MenuItem("Format Cookies", lambda: os.system('formatCookies.exe')),
+            pystray.MenuItem("Settings", lambda: os.system('settings.exe')),
+            pystray.MenuItem("Quit", on_quit)
+        )
+        icon.menu = menu
+        
+        while running.is_set():
+            try:
+                if current_word_index >= total_words:
+                    current_word_index = 0
+                    print("Reached end of word list, starting over")
+                
+                line = all_words[current_word_index]
+                english_word = line.split('-')[0].strip()
+                meaning = line.split('-')[1].strip() if '-' in line else ''
+                
+                print(f"Showing word {current_word_index + 1}/{total_words}: {english_word}")
+                
+                show_notification(english_word, meaning, current_word_index + 1, total_words)
+                text_to_speech(english_word)
+                playsound(custom_sound)
+                
+                current_word_index = (current_word_index + 1)
+                save_current_index(current_word_index, total_words)
+                
+                settings = load_settings()
+                interval = settings.get('interval', 180)
+                print(f"Waiting for {interval} seconds before next word...")
+                
+                # Đợi với timeout để có thể kiểm tra running.is_set()
+                for _ in range(interval):
+                    if not running.is_set():
+                        break
+                    time.sleep(1)
+                
+            except Exception as e:
+                print(f"Error in main loop: {str(e)}")
+                if running.is_set():
+                    time.sleep(5)
+                continue
 
-except FileNotFoundError:
-    print("Error: saved_words.txt not found")
-except Exception as e:
-    print(f"Unknown error: {str(e)}")
+    except Exception as e:
+        print(f"Critical error: {str(e)}")
+    finally:
+        try:
+            if 'mutex' in globals():
+                win32api.CloseHandle(mutex)
+                print("Mutex released")
+        except Exception as e:
+            print(f"Error releasing mutex: {str(e)}")
+
+if __name__ == "__main__":
+    main()
