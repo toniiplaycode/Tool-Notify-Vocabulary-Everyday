@@ -23,6 +23,10 @@ def resource_path(relative_path):
     try:
         # PyInstaller tạo một thư mục temp _MEIPASS
         base_path = sys._MEIPASS
+        # Với saved_words.txt, luôn đọc từ thư mục hiện tại
+        if relative_path == "saved_words.txt":
+            current_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+            return os.path.join(current_dir, relative_path)
     except Exception:
         base_path = os.path.dirname(__file__)
     
@@ -170,8 +174,12 @@ def check_single_instance():
 
 def main():
     try:
+        print("Starting application...")
+        print("This console will close in 10 seconds if no errors occur")
+        
         if not check_single_instance():
             print("Exiting due to another instance running")
+            time.sleep(10)  # Đợi 10 giây trước khi thoát
             sys.exit(0)
             
         print("Starting main program...")
@@ -179,14 +187,15 @@ def main():
         # Thêm vào startup khi khởi động
         add_to_startup()
         
-        # Tạo và chạy icon trong thread riêng trước khi đọc từ vựng
+        # Tạo và chạy icon trong thread riêng
         icon = create_tray_icon()
         icon_thread = threading.Thread(target=icon.run, daemon=True)
         icon_thread.start()
         
-        # Đợi icon được khởi tạo
+        print("System tray icon created...")
         time.sleep(3)
         
+        print("Loading vocabulary file...")
         with open(resource_path("saved_words.txt"), "r", encoding="utf-8") as f:
             all_words = [line.strip() for line in f.readlines()]
             total_words = len(all_words)
@@ -194,6 +203,7 @@ def main():
 
         if not all_words:
             print("Error: saved_words.txt is empty")
+            time.sleep(10)
             exit()
 
         current_word_index = load_current_index(total_words)
@@ -203,25 +213,11 @@ def main():
         interval = settings.get('interval', 180)
         print(f"Initial interval: {interval} seconds")
         
-        # Tạo event để kiểm soát vòng lặp
-        running = threading.Event()
-        running.set()  # Set event để bắt đầu vòng lặp
+        # Nếu không có lỗi, đóng console sau 10 giây
+        time.sleep(10)
         
-        def on_quit(icon):
-            running.clear()  # Clear event để dừng vòng lặp
-            icon.stop()
-            os._exit(0)
-        
-        # Cập nhật menu với hàm on_quit mới
-        menu = pystray.Menu(
-            pystray.MenuItem("Get Vocabulary", lambda: os.system('getVocabulary.exe')),
-            pystray.MenuItem("Format Cookies", lambda: os.system('formatCookies.exe')),
-            pystray.MenuItem("Settings", lambda: os.system('settings.exe')),
-            pystray.MenuItem("Quit", on_quit)
-        )
-        icon.menu = menu
-        
-        while running.is_set():
+        # Vòng lặp chính
+        while True:
             try:
                 if current_word_index >= total_words:
                     current_word_index = 0
@@ -244,20 +240,17 @@ def main():
                 interval = settings.get('interval', 180)
                 print(f"Waiting for {interval} seconds before next word...")
                 
-                # Đợi với timeout để có thể kiểm tra running.is_set()
-                for _ in range(interval):
-                    if not running.is_set():
-                        break
-                    time.sleep(1)
+                # Thay thế vòng lặp for bằng time.sleep() đơn giản
+                time.sleep(interval)
                 
             except Exception as e:
                 print(f"Error in main loop: {str(e)}")
-                if running.is_set():
-                    time.sleep(5)
+                time.sleep(10)
                 continue
 
     except Exception as e:
         print(f"Critical error: {str(e)}")
+        time.sleep(10)  # Đợi 10 giây khi có lỗi nghiêm trọng
     finally:
         try:
             if 'mutex' in globals():
@@ -265,6 +258,7 @@ def main():
                 print("Mutex released")
         except Exception as e:
             print(f"Error releasing mutex: {str(e)}")
+            time.sleep(10)
 
 if __name__ == "__main__":
     main()

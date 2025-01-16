@@ -8,8 +8,7 @@ a = Analysis(
     binaries=[],
     datas=[
         ('icon.ico', '.'), 
-        ('ting.wav', '.'), 
-        ('saved_words.txt', '.')
+        ('ting.wav', '.')
     ],
     hiddenimports=[],
     hookspath=[],
