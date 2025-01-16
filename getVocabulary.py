@@ -126,8 +126,25 @@ def get_vocabulary(word_count):
 
         print(f"Đã lưu {len(saved_words)} từ vựng vào file saved_words.txt")
 
+        # Sau khi lưu từ vựng mới vào saved_words.txt
+        
+        # Xóa file vocabulary_state.json để reset vị trí từ
+        if os.path.exists('vocabulary_state.json'):
+            os.remove('vocabulary_state.json')
+            print("Đã xóa file vocabulary_state.json để reset vị trí từ")
+            
+        # Xóa file vocabulary_state.json trong thư mục dist nếu có
+        dist_state_file = os.path.join('dist', 'vocabulary_state.json')
+        if os.path.exists(dist_state_file):
+            os.remove(dist_state_file)
+            print("Đã xóa file vocabulary_state.json trong thư mục dist")
+            
+        print("Đã cập nhật từ vựng mới thành công!")
+        messagebox.showinfo("Thành công", "Đã cập nhật từ vựng mới và reset vị trí từ!")
+
     except Exception as e:
         print(f"Lỗi: {str(e)}")
+        messagebox.showerror("Lỗi", f"Không thể lấy từ vựng: {str(e)}")
     finally:
         driver.quit()
 

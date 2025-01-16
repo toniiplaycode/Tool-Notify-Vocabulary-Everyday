@@ -1,3 +1,38 @@
+shape - hình dạng
+wing - cánh
+overwhelm - áp đảo
+entire - toàn bộ
+desserts - món tráng miệng
+fusion - sự hợp nhất
+proper - thích hợp
+patient - kiên nhẫn
+coworker - đồng nghiệp
+deposits - tiền gửi
+literally - theo đúng nghĩa đen
+bald - hói
+suspicious - khả nghi
+pronounce - phát âm
+preparing - chuẩn bị
+produce - sản xuất
+interacting - tương tác
+cashier - thu ngân
+ridiculous - lố bịch
+anymore - nữa
+shifts - ca làm việc
+assume - cho rằng
+split up - chia ra
+anyway - Dẫu sao thì
+apparent - rõ ràng
+baskets - giỏ hàng
+reuse - tái sử dụng
+hire - thuê
+fantastic - tuyệt vời
+awesome - tuyệt vời
+stuff for - đồ dùng cho
+mostly - hầu hết
+grocery store - cửa hàng tạp hóa
+embarrassing - xấu hổ
+motivation - động lực
 peak - đỉnh cao
 valuable - có giá trị lớn
 associated - có liên quan
@@ -22,7 +57,6 @@ bible - Kinh thánh
 compensate - đền bù
 bowel movement - đi tiêu
 urine - nước tiểu
-sweat - mồ hôi
 surround - bao quanh
 essentially - Thiết yếu
 equivalent - tương đương
@@ -64,37 +98,3 @@ enum - liệt kê
 implementation - thực hiện
 due to - bởi vì
 ensure - đảm bảo
-instances - trường hợp
-concise - ngắn gọn
-implement - thực hiện
-companion - bạn đồng hành
-omit - bỏ sót
-frequently - thường xuyên
-perimeter - chu vi
-inference - sự suy luận
-entire - toàn bộ
-honk - bấm còi
-specific - cụ thể
-specify - chỉ rõ
-familiarize - làm quen
-vending - bán hàng tự động
-willing - sẵn sàng
-honest - trung thực
-ill - ốm
-servant - người hầu
-nervous - lo lắng
-governess - gia sư
-accused - bị buộc tội
-innocent - vô tội
-conclusion - Phần kết luận
-doubt - nghi ngờ
-remind - nhắc lại
-mention - đề cập đến
-justice - Sự công bằng
-pill - Viên thuốc
-swan - Thiên nga
-compress - nén
-wonder - thắc mắc
-record player - máy ghi âm
-unconscious - bất tỉnh
-directly - trực tiếp
