@@ -1,3 +1,24 @@
+instant - lập tức
+specifically - cụ thể
+behavior - hành vi
+gratification - sự thỏa mãn
+extremely - vô cùng
+starve - chết đói
+reward - phần thưởng
+admit - thừa nhận
+uneasy - bồn chồn
+vibrate - rung
+Interactive - Tương tác
+convenient - thuận lợi
+effort - cố gắng
+definitely - chắc chắn
+urge - thúc giục
+productive - có năng suất
+reduce - giảm bớt
+negative - tiêu cực
+cause - nguyên nhân
+triggers - kích hoạt
+asset - tài sản
 shape - hình dạng
 wing - cánh
 overwhelm - áp đảo
@@ -77,24 +98,3 @@ pride - kiêu hãnh
 ambition - tham vọng
 candidate - ứng viên
 deprecated - đã lỗi thời
-decoration - trang trí
-various - nhiều
-assuming - giả định
-radioactive - phóng xạ
-epidemic - bệnh dịch
-aspects - các khía cạnh
-properly - đúng cách
-consumes - tiêu thụ
-addicted - nghiện
-discussed - đã thảo luận
-exhausted - kiệt sức
-aspect - diện mạo
-proves - chứng minh
-perhaps - có lẽ
-app bar - thanh ứng dụng
-coordinator - người điều phối
-intent - ý định
-enum - liệt kê
-implementation - thực hiện
-due to - bởi vì
-ensure - đảm bảo

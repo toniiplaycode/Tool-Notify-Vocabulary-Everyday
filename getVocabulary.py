@@ -31,7 +31,7 @@ class VocabularySelector:
         ttk.Label(main_frame, text="Số lượng từ vựng:").grid(row=0, column=0, pady=10)
         
         # Combobox
-        self.word_count = ttk.Combobox(main_frame, values=[10, 20, 30, 50, 100], width=10)
+        self.word_count = ttk.Combobox(main_frame, values=[10, 20, 30, 50, 100, 150, 200, 250, 300], width=10)
         self.word_count.set(30)  # Giá trị mặc định
         self.word_count.grid(row=0, column=1, padx=10)
         
